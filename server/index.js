@@ -1,4 +1,5 @@
 require('dotenv').config(); // Dodaj to na samej górze
+const Player = require('./models/Player');
 const express = require('express');
 const app = express();
 const connectToMongoDB = require('./mongoConnection');
